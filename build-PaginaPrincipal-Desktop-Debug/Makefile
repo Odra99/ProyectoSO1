@@ -197,7 +197,7 @@ DIST          = /usr/lib64/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib64/qt5/mkspecs/features/lex.prf \
 		../PaginaPrincipal/PaginaPrincipal.pro ../PaginaPrincipal/entradaframe.h \
 		../PaginaPrincipal/hoja.h \
-		../PaginaPrincipal/mainprocess.h \
+		mainprocess.h \
 		../PaginaPrincipal/mainwindow.h \
 		../PaginaPrincipal/planta.h \
 		../PaginaPrincipal/rama.h ../PaginaPrincipal/entradaframe.cpp \
@@ -491,7 +491,7 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib64/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../PaginaPrincipal/entradaframe.h ../PaginaPrincipal/hoja.h ../PaginaPrincipal/mainprocess.h ../PaginaPrincipal/mainwindow.h ../PaginaPrincipal/planta.h ../PaginaPrincipal/rama.h $(DISTDIR)/
+	$(COPY_FILE) --parents ../PaginaPrincipal/entradaframe.h ../PaginaPrincipal/hoja.h mainprocess.h ../PaginaPrincipal/mainwindow.h ../PaginaPrincipal/planta.h ../PaginaPrincipal/rama.h $(DISTDIR)/
 	$(COPY_FILE) --parents ../PaginaPrincipal/entradaframe.cpp ../PaginaPrincipal/hoja.cpp ../PaginaPrincipal/main.cpp ../PaginaPrincipal/mainwindow.cpp ../PaginaPrincipal/planta.cpp ../PaginaPrincipal/rama.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../PaginaPrincipal/entradaframe.ui ../PaginaPrincipal/mainwindow.ui $(DISTDIR)/
 	$(COPY_FILE) --parents PaginaPrincipal_es_GT.ts $(DISTDIR)/
@@ -575,7 +575,10 @@ main.o: ../PaginaPrincipal/main.cpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../PaginaPrincipal/main.cpp
 
 mainwindow.o: ../PaginaPrincipal/mainwindow.cpp ../PaginaPrincipal/mainwindow.h \
-		ui_mainwindow.h
+		ui_mainwindow.h \
+		../PaginaPrincipal/planta.h \
+		../PaginaPrincipal/rama.h \
+		../PaginaPrincipal/hoja.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../PaginaPrincipal/mainwindow.cpp
 
 planta.o: ../PaginaPrincipal/planta.cpp ../PaginaPrincipal/planta.h \

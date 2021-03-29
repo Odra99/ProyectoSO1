@@ -10,6 +10,7 @@
 #include "../PaginaPrincipal/mainwindow.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
+#include <QtCore/QVector>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'mainwindow.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
@@ -22,8 +23,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[8];
-    char stringdata0[84];
+    QByteArrayData data[10];
+    char stringdata0[127];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,16 +34,19 @@ struct qt_meta_stringdata_MainWindow_t {
 static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {
     {
 QT_MOC_LITERAL(0, 0, 10), // "MainWindow"
-QT_MOC_LITERAL(1, 11, 8), // "colorear"
-QT_MOC_LITERAL(2, 20, 0), // ""
-QT_MOC_LITERAL(3, 21, 7), // "QLabel*"
-QT_MOC_LITERAL(4, 29, 6), // "animar"
-QT_MOC_LITERAL(5, 36, 12), // "agruparRamas"
-QT_MOC_LITERAL(6, 49, 12), // "agruparHojas"
-QT_MOC_LITERAL(7, 62, 21) // "on_pushButton_clicked"
+QT_MOC_LITERAL(1, 11, 14), // "colorearTronco"
+QT_MOC_LITERAL(2, 26, 0), // ""
+QT_MOC_LITERAL(3, 27, 13), // "colorearRamas"
+QT_MOC_LITERAL(4, 41, 13), // "colorearHojas"
+QT_MOC_LITERAL(5, 55, 16), // "QVector<QLabel*>"
+QT_MOC_LITERAL(6, 72, 6), // "animar"
+QT_MOC_LITERAL(7, 79, 12), // "agruparRamas"
+QT_MOC_LITERAL(8, 92, 12), // "agruparHojas"
+QT_MOC_LITERAL(9, 105, 21) // "on_pushButton_clicked"
 
     },
-    "MainWindow\0colorear\0\0QLabel*\0animar\0"
+    "MainWindow\0colorearTronco\0\0colorearRamas\0"
+    "colorearHojas\0QVector<QLabel*>\0animar\0"
     "agruparRamas\0agruparHojas\0"
     "on_pushButton_clicked"
 };
@@ -54,7 +58,7 @@ static const uint qt_meta_data_MainWindow[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       5,   14, // methods
+       7,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -62,15 +66,19 @@ static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    1,   39,    2, 0x08 /* Private */,
-       4,    0,   42,    2, 0x08 /* Private */,
-       5,    0,   43,    2, 0x08 /* Private */,
-       6,    0,   44,    2, 0x08 /* Private */,
-       7,    0,   45,    2, 0x08 /* Private */,
+       1,    0,   49,    2, 0x08 /* Private */,
+       3,    2,   50,    2, 0x08 /* Private */,
+       4,    2,   55,    2, 0x08 /* Private */,
+       6,    3,   60,    2, 0x08 /* Private */,
+       7,    0,   67,    2, 0x08 /* Private */,
+       8,    0,   68,    2, 0x08 /* Private */,
+       9,    0,   69,    2, 0x08 /* Private */,
 
  // slots: parameters
-    QMetaType::Void, 0x80000000 | 3,    2,
     QMetaType::Void,
+    QMetaType::Void, QMetaType::Int, QMetaType::Int,    2,    2,
+    QMetaType::Void, QMetaType::Int, 0x80000000 | 5,    2,    2,
+    QMetaType::Void, QMetaType::Int, QMetaType::Int, QMetaType::Int,    2,    2,    2,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -84,21 +92,23 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<MainWindow *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->colorear((*reinterpret_cast< QLabel*(*)>(_a[1]))); break;
-        case 1: _t->animar(); break;
-        case 2: _t->agruparRamas(); break;
-        case 3: _t->agruparHojas(); break;
-        case 4: _t->on_pushButton_clicked(); break;
+        case 0: _t->colorearTronco(); break;
+        case 1: _t->colorearRamas((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 2: _t->colorearHojas((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< QVector<QLabel*>(*)>(_a[2]))); break;
+        case 3: _t->animar((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 4: _t->agruparRamas(); break;
+        case 5: _t->agruparHojas(); break;
+        case 6: _t->on_pushButton_clicked(); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         switch (_id) {
         default: *reinterpret_cast<int*>(_a[0]) = -1; break;
-        case 0:
+        case 2:
             switch (*reinterpret_cast<int*>(_a[1])) {
             default: *reinterpret_cast<int*>(_a[0]) = -1; break;
-            case 0:
-                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QLabel* >(); break;
+            case 1:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QVector<QLabel*> >(); break;
             }
             break;
         }
@@ -134,13 +144,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 7;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 5)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 7;
     }
     return _id;
 }
