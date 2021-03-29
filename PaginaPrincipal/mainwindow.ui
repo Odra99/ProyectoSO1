@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>826</width>
+    <height>671</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Pagina Principal</string>
+  </property>
+  <property name="whatsThis">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#be7e7e;&quot;&gt;afdadfasd&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <widget class="QFrame" name="PantallaPrincipal">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>771</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(204, 204, 204);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="rama1">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>360</y>
+       <width>231</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(225, 26, 26)</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="rama2">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>260</y>
+       <width>231</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(225, 26, 26);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja15">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>310</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja19">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>350</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja14">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>390</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja16">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>390</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja12">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>390</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja18">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>390</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja13">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>310</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja17">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>310</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja11">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>310</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja28">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>290</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja22">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>290</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja26">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>290</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja24">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>290</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja29">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>250</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja25">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>210</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja23">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>210</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja27">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>210</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja21">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>210</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja53">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>130</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja51">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>130</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja55">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>130</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja54">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>50</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="rama5">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>100</y>
+       <width>231</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(225, 26, 26);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja52">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>50</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja58">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>50</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja56">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>50</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja57">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>130</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja59">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>90</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja33">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>480</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja31">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>480</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja35">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>480</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja34">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>400</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="rama3">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>450</y>
+       <width>231</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(225, 26, 26);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja32">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>400</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja38">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>400</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja36">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>400</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja37">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>480</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja39">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>440</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja45">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>130</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja43">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>130</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja42">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>210</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja46">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>210</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja49">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>170</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="rama4">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>180</y>
+       <width>231</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(225, 26, 26)</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja41">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>130</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja48">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>210</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja44">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>210</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hoja47">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>130</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+border-color: rgb(35, 123, 44);
+background-color: rgb(35, 123, 44);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="troncoL">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>50</y>
+       <width>31</width>
+       <height>471</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(16, 12, 12);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>600</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Iniciar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>826</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
