@@ -6,13 +6,12 @@ using namespace std;
 class hoja
 {
 public:
-    hoja(int);
+    hoja(int,int);
     hoja();
     int hojaN;
     int pid;
 
     int obtenerPid();
-    int obtenerPidP();
     int obtenerHojaN();
 
 };

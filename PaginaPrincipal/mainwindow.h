@@ -4,6 +4,8 @@
 #include <QLabel>
 #include <QVector>
 
+#include "planta.h"
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -21,8 +23,11 @@ public:
     FILE *fichero;
 
 private slots:
-    void colorear(QLabel*);
-    void animar();
+    void colorearTronco();
+    void colorearRamas(int,int);
+    void colorearHojas(int,QVector <QLabel*>);
+
+    void animar(int,int,int);
     void agruparRamas();
     void agruparHojas();
 
